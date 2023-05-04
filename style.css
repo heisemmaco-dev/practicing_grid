@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    box-sizing: border-box;
+    background-color: rgb(232, 240, 252);
+    padding: 5%;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+
+display: grid;
+grid-gap: 15px; 
+margin: 4% auto;
+max-width: 820px;
+
+padding: 4%;
+
+background-color: white;
+}
+
+b {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.container {
+display: grid;
+grid-gap: 15px; 
+margin: 4% auto;
+
+max-width: 820px;
+
+}
+
+@media screen and (min-width: 400px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+button {
+    padding: 4%;
+    background-color: rgb(0, 0, 85);
+
+    color: aliceblue;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+
+.letdown {
+    box-shadow: 2px 14px 18px 0px rgba(0,0,0,0.46) inset;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 15px;
+
+    padding: 6%;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.the_time_wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    font-size: 1rem;
+    font-weight: 600;  
+
+    align-items: center;
+}
+
+/* .wrap {
+    display: flex;
+    flex-flow: column nowrap;
+    
+    
+} */
+
+.arrow {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.down {
+    height: 100%;
+}
+
+.lightblue {
+    background-color: rgb(232, 240, 252);
+    color: rgb(0, 0, 75);
+}
+.blue {
+    background-color: rgb(0, 0, 165);
+    color: rgb(232, 240, 252);;
+}
