@@ -49,6 +49,10 @@ max-width: 820px;
     .container {
         grid-template-columns: repeat(3, 1fr);
     }
+
+    .down {
+        height: 100%;
+    }
 }
 
 
@@ -107,9 +111,6 @@ h3 {
     font-size: 2rem;
 }
 
-.down {
-    height: 100%;
-}
 
 .lightblue {
     background-color: rgb(232, 240, 252);
